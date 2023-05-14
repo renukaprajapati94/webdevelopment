@@ -13,14 +13,52 @@
         <h1>Registration to fill Examination form</h1>
         <p>Please fill in this form to create an account.</p>
         <form action="">
-            <label style="margin-bottom: 1rem;" for="type">Registration Type </label>
-            <br>
-            <select name="type">
-                <option value="1">None</option>
-                <option value="2">Regular</option>
-                <option value="3">KT</option>
-            </select>
-           
+            <div style="width: 40%;">
+                <div style="float:left">
+                    <label style="margin-bottom: 1rem;" for="type">Registration Type</label>
+                    <br>
+                    <select name="type" style="width:8rem">
+                        <option value="1">None</option>
+                        <option value="2">Regular</option>
+                        <option value="3">KT</option>
+                    </select>
+                </div>
+                <div style="float:right">
+                    <label style="margin-bottom: 1rem;" for="year">Registration Year</label>
+                    <br>
+                    <select name="year" style="width:8rem">
+                        <option value="1">None</option>
+                        <option value="2">2019</option>
+                        <option value="3">2020</option>
+                        <option value="4">2021</option>
+                        <option value="5">2022</option>
+                        <option value="6">2023</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div>
+                    <label style="margin-bottom: 1rem;" for="name">Name</label>
+                    <br>
+                    <input type="name" style="width:19rem" required>
+                    <br>
+                    <br>
+                    <label style="margin-bottom: 1rem;" for="regno">Registration No</label>
+                    <br>
+                    <input type="number" style="width:10rem" required>
+                    <br>
+                    <br>
+                    <label style="margin-bottom: 1rem;" for="emailid">Email Id</label>
+                    <br>
+                    <input type="emailid" style="width:19rem" required>
+                    <br>
+                    <br>
+                    <label style="margin-bottom: 1rem;" for="mobile">Mobile No</label>
+                    <br>
+                    <input type="number" style="width:19rem" required>
+                </div>
+            </div>
         </form>
     </div>
 </body>
