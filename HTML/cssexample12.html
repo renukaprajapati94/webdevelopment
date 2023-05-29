@@ -19,9 +19,12 @@
         tr>td:nth-child(1) {
             width: 200px;
         }
+        tr>th:nth-child(1),tr>th:nth-child(4) {
+            text-align: left;
+        }
         tr>td:nth-child(2) {
             text-align: right;
-            width: 50px;
+            width: 60px;
         }
         tr>td:nth-child(3) {
             text-align: right;
@@ -30,9 +33,6 @@
         tr>td:nth-child(4) {
             width: 300px;
         }
-        tfoot>tr>td:nth-child(2){
-            text-align: left;
-        }
         table {
             border-top: 1px solid #999;
             border-bottom: 1px solid #999;
@@ -40,8 +40,10 @@
             margin: auto;
         }
         tbody tr:nth-child(odd){
-            text-align: left;
             background-color: #eee;
+        }
+        tfoot{
+            font-weight: bold;
         }
     </style>
 </head>
