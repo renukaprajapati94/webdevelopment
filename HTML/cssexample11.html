@@ -9,12 +9,12 @@
     .form-container {
         padding:5px;
     }
-    [class~="myform"] > *{
+    form > *{
         font-size: 20px;
         padding:10px;
         font-family: sans-serif;
     }
-    button {
+    button[type="submit"] {
         color:#ffffff;
         background-color: rebeccapurple;
         border:none;
@@ -27,7 +27,7 @@
         <form action="" class="myform">
             <label for="searchfield">Keywords</label>
             <input type="text" id="searchfield">
-            <button>Search</button>
+            <button type="submit">Search</button>
         </form>
     </div>
 </body>
