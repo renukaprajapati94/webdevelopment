@@ -9,14 +9,53 @@
         .box{
             width:50%;
             height: 110vh;
-            border:1px solid black;
+            border-width: 2px 1px;
+            border-style: solid;
+            border-color: red gray;
             margin:0 auto;
+            overflow: hidden;
+        }
+        .top{
+            height: 10vh;
+            background-image: url("https://raw.githubusercontent.com/mdn/learning-area/master/css/styling-boxes/letterheaded-paper-start/top-image.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .middle {
+            height: 80vh;
+            background-image: url("https://raw.githubusercontent.com/mdn/learning-area/master/css/styling-boxes/letterheaded-paper-start/logo.png");
+            background-repeat: no-repeat;
+            background-position: 70px 0px;
+        } 
+        .bottom {
+            height: 20vh;
+            background-position: bottom;
+            background-image: url("https://raw.githubusercontent.com/mdn/learning-area/master/css/styling-boxes/letterheaded-paper-start/bottom-image.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        p{
+            position: absolute;
+            bottom:0;
+            right:30%;
+            font-style: italic;
+            font-family: sans-serif;
         }
     </style>
 </head>
 <body>
     <div class="box">
-
+        <div class="top"></div>
+        <div class="middle"></div>
+        <div class="bottom">
+            <p>The Awesome Company<br><br>
+                112-Frail Bend Bridge<br>
+                The Dwindings<br>
+                Little Homet<br>
+                HX3 9ZQ<br>
+                UK
+            </p>
+        </div>
     </div>
 </body>
 </html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .floatbox {
+        padding:20px 100px 100px 20px;
+        background-color: blueviolet;
+        border-radius: 3px;
+        color:white;
+        float:left;
+      }  
+      .below {
+        clear: left;
+      }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="floatbox">Float</div>
+        This sentence appears next to the float. 
+        <p class="below">Cause this sentence to appear below the float.</p>
+    </div>
+</body>
+</html>
