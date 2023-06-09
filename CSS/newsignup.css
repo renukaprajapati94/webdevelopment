@@ -4,28 +4,20 @@
     padding:0;
     font-family: 'Source Sans Pro', sans-serif;
 }
-/* .container {
-    height:100vh;
-    background-color: #3598dc;
-}
-.innerbox {
-    padding:30px;
-    margin:auto;
-    width:fit-content;
-    background-color: #ffffff;
-}
-
-.innerbox div {
-    padding:10px;
-} */
-
 .container {
     border:1px solid red;
+    background-color: #3598dc;
     height: 100vh;
 }
+
+.login-here {
+    text-align: center;
+}
+
 .innerbox {
-    border:2px solid greenyellow;
-    display: flex;
-    
-    
+    background-color: #ffffff;  
+    width:500px;
+    margin:30px auto;
+    border-radius: 3px;
+    padding:20px;
 }

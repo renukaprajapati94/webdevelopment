@@ -7,6 +7,7 @@
 .container h1,.main {
     margin:2% 15%;
 }
+
 /* Header */
 .nav {
     background-color: rgb(28, 28, 39);
@@ -35,10 +36,45 @@
 }
 
 /* Body */
-.main img {
-    width:200px;
-    height:250px;
+
+.body {
+    display: flex;
 }
-.main h2,p {
-    margin:10px 0;
+
+.main-content {
+    width:70%;
+    padding-left:100px;
 }
+
+.main-content p{
+    padding-top:10px;
+}
+
+.main-content img {
+    width:180px;
+    float:left;
+    margin-right:15px;
+}
+
+.content {
+    float:left;
+}
+
+.sidebar {
+    width:30%;
+    padding-right:50px;
+    padding-left:10px;
+}
+
+.sidebar .photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap:3px;
+    padding-top:10px;
+}
+
+.sidebar .photos img {
+    width:120px;
+    height: 140px;
+}
+
