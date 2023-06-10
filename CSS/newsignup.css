@@ -16,8 +16,72 @@
 
 .innerbox {
     background-color: #ffffff;  
-    width:500px;
+    width:395px;
     margin:30px auto;
     border-radius: 3px;
-    padding:20px;
+}
+
+/*Header*/
+
+.header{
+    padding: 15px 20px;
+}
+
+.header h1{
+    color: #333;
+    font-weight:bolder;
+    margin-bottom: 10px;
+}
+
+.header p{
+    color: #999;
+}
+
+/*Body*/
+
+.body {
+    padding: 10px 25px;
+}
+
+input {
+     padding:8px;
+     margin:10px 8px 10px 1px;
+     border:none;
+     background-color: #f2f2f2;
+     font-size:15px;
+}
+
+input[type="text"] {
+    width:9rem;
+}
+
+input[type="email"],[type="password"] {
+    width: 20rem;
+}
+
+span {
+    color:#999;
+}
+
+span a {
+    text-decoration: none;
+    color:#3598dc;
+}
+
+/* Footer */
+
+.footer input{
+   padding:8px 35px;
+   margin:5px 10px 50px 23px;
+   background-color:#3598dc;
+   color:#fff;
+   border-radius: 3px;
+}
+
+.login-here {
+    color:#fff;
+}
+
+.login-here a {
+    color:white;
 }
