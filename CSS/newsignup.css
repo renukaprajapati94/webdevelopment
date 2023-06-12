@@ -5,9 +5,9 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 .container {
-    border:1px solid red;
     background-color: #3598dc;
     height: 100vh;
+    border:1px solid #3598dc;
 }
 
 .login-here {
