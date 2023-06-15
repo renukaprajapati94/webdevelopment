@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+
+.container > span{
+    border-radius: 50%;
+    padding:15px;
+}
+
+.dot1 {
+    background-color: #4285f4;
+    animation: dot1-animation 0.8s ease-in-out 0.1s alternate,dot1-animation2 1s ease-in-out 1s forwards;
+}
+
+.dot2 {
+    background-color: #ea4335;
+    animation: dot2-animation 0.8s ease-in-out 0.2s alternate,dot2-animation2 1s ease-in-out 1s forwards;
+}
+
+.dot3 {
+    background-color: #fbbc05;
+    animation: dot3-animation 0.8s ease-in-out 0.3s alternate,dot3-animation2 1s ease-in-out 1s forwards;
+}
+
+.dot4 {
+    background-color: #34a853;
+    animation: dot4-animation 0.8s ease-in-out 0.4s alternate,dot4-animation2 1s ease-in-out 1s forwards;
+}
+
+@keyframes dot1-animation {
+    0%    {transform: translate(0,-18px);}
+    100%  {transform: translate(0,0);}
+}
+
+@keyframes dot2-animation {
+    0%    {transform: translate(0,-18px);}
+    100%  {transform: translate(0,0);}
+}
+
+@keyframes dot3-animation {
+    0%    {transform: translate(0,-18px);}
+    100%  {transform: translate(0,0);}
+}
+
+@keyframes dot4-animation {
+    0%    {transform: translate(0,-18px);}
+    100%  {transform: translate(0,0);}
+}
+
+@keyframes dot1-animation2 {
+    to {
+        padding:60px;
+        transform: translate(-12px,-40px);
+    }
+}
+
+@keyframes dot2-animation2 {
+    to {
+        padding:25px;
+        transform: translate(-1px,-20px);
+    }
+}
+
+@keyframes dot3-animation2 {
+    to {
+        padding:30px;
+        transform: translate(-70px,45px);
+    }
+}
+
+@keyframes dot4-animation2 {
+    to {
+        padding:18px;
+        transform: translate(-90px,-50px);
+    }
+}
