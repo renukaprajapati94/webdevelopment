@@ -17,6 +17,7 @@
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 1px 1px 5px #111;
+    display: flex;
 }
 
 input[type="button"] {
@@ -38,12 +39,26 @@ input[value="Cancel"] {
     border:1px solid rgb(212, 212, 212);
 }
 
-.icon {
-    position: relative;
-    bottom:10%;
-    left:98%;
+.col1 i {
+    font-size: 40px;
+    margin:5px;
+    color:#0070f2;
+}
+
+.col2 {
+    margin-left:10px;
+}
+
+.col2 i {
+    float:right;
     color:gray;
     font-size: 20px;
+    margin-top:5px;
+}
+
+.col2 p {
+    width:95%;
+    margin-top:10px;
 }
 
 .title {

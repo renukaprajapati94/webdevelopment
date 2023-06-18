@@ -11,7 +11,23 @@
     justify-content: center;
     align-items: center;
     gap:15px;
+    animation: main-anim 0.8s ease-in-out 2s forwards;
 }
+
+/* .text {
+    font-family: sans-serif;
+    border:1px solid gray;
+    border-radius: 20px !important;
+    padding:15px 30px !important;
+    animation: text-anim 0.8s ease-in-out 2s forwards;
+}
+
+@keyframes text-anim {
+    to  {
+        transform: translate(-250px,150px);
+    }
+    
+} */
 
 .container > span{
     border-radius: 50%;
@@ -83,5 +99,11 @@
     to {
         padding:18px;
         transform: translate(-90px,-50px);
+    }
+}
+
+@keyframes main-anim {
+    to {
+        transform: translate(-0px,-100px);
     }
 }
