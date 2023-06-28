@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@900;&display=swap');
 * {
     margin:0;
     padding:0;  
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Container */
@@ -9,36 +12,34 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    border:1px solid red;
 }
 
 .inner-container {
     display: flex;
     text-align: center;
-    box-shadow: 0 0 15px #cbcbcb;
-}
-
-.inner-container > div {
-    /* height: 500px; */
+    box-shadow: 0 0 20px #cbcbcb;
 }
 
 /* Left Section */
 .left-section {
     background-color: #2fb494;
     color:#fff;
-    padding:200px 28px;
-    width: 400px;
+    padding:200px 100px;
+    /* width: 400px; */
 } 
 
 h1 {
-    font-size: 45px;
-    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-family: 'Assistant', sans-serif;
 }
 
 .left-section p {
-    word-wrap: break-word;
-    padding: 0 60px;
     font-size: 18px;
+}
+
+.left-section p:first-child {
+    padding: 0 60px;
     letter-spacing: 0.5px;
 }
 
@@ -54,10 +55,74 @@ h1 {
 /* Right Section */
 .right-section {
     box-sizing: border-box;
-     
+    margin:40px 180px;
+}
+
+.right-section p {
+    font-size:22px;
+    font-weight: bold;
+    letter-spacing: 1px ;
+}
+
+hr {
+    margin:20px 0;
+    border:1px solid #2fb494;
+}
+
+.social {
+    margin:40px 0;
+}
+
+.social a:first-child {
+    padding: 10px 15px;
+}
+
+.social a {
+    text-decoration: none;
+    box-shadow: 0 0 5px #cbcbcb;
+    padding: 10px;
+    border-radius: 50%;
+    color:black;
+    margin-right: 15px;
 }
 
 .userinput {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap:17px;
+}
+
+.userinput input {
+    padding:15px 0;
+    border-radius: 10px;
+    width:120%;
+    border:none;
+    background-color: #ecf8f6;
+}
+
+.userinput input::placeholder {
+    padding-left:20px;
+    font-weight: bold;
+}
+
+.userinput button {
+    padding:15px 0;
+    width:120%;
+    background-color: #12b68f;
+    color:#fff;
+    border-radius: 10px;
+    border:none;
+    margin-top:15px;
+}
+
+@media only screen and (max-width: 1050px) {
+    .inner-container {
+        flex-direction: column;
+    }
+
+    .left-section {
+        padding:70px 100px;
+    }
+    
 }
