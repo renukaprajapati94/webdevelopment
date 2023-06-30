@@ -122,7 +122,6 @@
     display: flex;
     background-image: url("../images/back.jpg");
     box-shadow: 0 1px 5px -1px #111;
-
 }  
 
 .banner-info {
@@ -140,7 +139,7 @@
     font-size: 18px;
 }
 
-.banner-info button {
+.readbtn {
     border:none;
     background-color: #f2b42a;
     box-shadow: 1px 1px 3px -1px #000;
@@ -160,12 +159,12 @@
     text-align: center;
 }
 
-.categ-title h1 {
+.title {
     margin-top: 20px;
     font-size: 40px;
 }
 
-.categ-title h1 span {
+.title span {
     color:#27aadd;
 }
 
@@ -201,8 +200,62 @@
     margin: 0 auto;
 }
 
-/* .categ-card div p {
- 
+/* Special Deal */
+.special-deal {
+    background-image: url("../images/back2.jpg");
+    display: flex;
+    align-items: center;
+}
+
+.special-deal > div {
+    flex: 1 1 0px;
+}
+.inner-box {
+    width:60%;
+    margin:40px 90px;
+    background-color: #fff;
     text-align: center;
-    padding:10px 25px;
-} */
+    border-radius: 10px;
+}
+
+.inner-box h1 {
+    transform: translateY(-1rem);
+}
+
+.inner-box button {
+    margin-top:0px !important;
+    transform: translateY(1rem);
+}
+
+.inner-box p {
+    padding:5px 30px;
+    font-size: 14px;
+}
+
+.deal-time {
+    font-size: 70px;
+    letter-spacing: 10px;
+}
+
+.icons {
+    display: flex;
+    gap:20px;
+}
+
+.time-span {
+    display:flex;
+    gap:13%;
+    margin:10px 0;
+}
+
+.icons i {
+    font-size: 35px;
+    padding:18px;
+    border-radius: 50%;
+    background-color: #27aadd;
+}
+
+.icons i+span {
+    font-size: 50px;
+    font-weight: bold;
+}
