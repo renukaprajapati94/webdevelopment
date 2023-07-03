@@ -17,7 +17,7 @@
 .inner-container {
     display: flex;
     text-align: center;
-    box-shadow: 0 0 20px #cbcbcb;
+    box-shadow: 0 0 20px #afaeae;
 }
 
 /* Left Section */
@@ -79,7 +79,7 @@ hr {
 
 .social a {
     text-decoration: none;
-    box-shadow: 0 0 5px #cbcbcb;
+    box-shadow: 0 0 5px #afaeae;
     padding: 10px;
     border-radius: 50%;
     color:black;
@@ -98,7 +98,7 @@ hr {
     border-radius: 10px;
     width:120%;
     border:none;
-    background-color: #ecf8f6;
+    background-color: #e2e9e8;
 }
 
 .userinput input::placeholder {

@@ -168,9 +168,10 @@
     color:#27aadd;
 }
 
-.categ-title p {
+.title-para {
     color:#908f8f;
     margin:5px;
+    padding:0 20%;
 }
 
 .categ-card {
@@ -258,4 +259,40 @@
 .icons i+span {
     font-size: 50px;
     font-weight: bold;
+}
+
+/* Client Review */
+.review {
+    margin:50px 0;
+    display: flex;
+    gap:20px;
+    padding:0 10%;
+}
+
+.user-review {
+    text-align: center;
+    background-color: #e6e6e6;
+}
+
+.user-review > * {
+    flex: 0 0 auto;
+}
+
+.user-review > p {
+    font-size: 14px;
+    padding-top:10px;
+}
+
+.user-img {
+    height: 80px;
+    width: 80px;
+    position: relative;
+    bottom:20%;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    color:#fff;
+    background-color: #212121;
 }
