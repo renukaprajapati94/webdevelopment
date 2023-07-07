@@ -5,14 +5,14 @@
 }
 
 .main-container {
-    border:1px solid red;
+    /* border:1px solid red; */
     display: flex;
     flex-direction: column;
 }
 
 .main-container > section {
     height: fit-content;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 /* Child Header */
@@ -22,17 +22,17 @@
     background-color: #212121;
 }
 
-.child-header .group-button {
+.group-button {
     margin-left:35px;
 }
 
-.child-header .group-button ul{
+.group-button ul{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
 }
 
-.child-header .group-button ul li{
+.group-button ul li{
     padding:10px;
     background-color: #2f2f2f;
     border-radius: 50%;
@@ -263,15 +263,15 @@
 
 /* Client Review */
 .review {
-    margin:50px 0;
+    margin:50px;
     display: flex;
     gap:20px;
-    padding:0 10%;
 }
 
 .user-review {
     text-align: center;
     background-color: #e6e6e6;
+    padding:0 20px 20px 20px;
 }
 
 .user-review > * {
@@ -295,4 +295,57 @@
     display: flex;
     color:#fff;
     background-color: #212121;
+    padding:20px 0;
+    justify-content: space-around;
+    letter-spacing: 1px;
+}
+
+.footer > div {
+    border-right: 1px solid #343434;
+    padding-right: 30px;
+}
+
+.footer div:last-child {
+    border-right: none;
+}
+
+.group-link {
+    display: flex;
+}
+
+.footer .group-button {
+    margin-left: 0;
+}
+
+.footer .group-button ul li {
+    background-color:#2196f3;
+    color:#111;
+}
+
+.newsletter input{
+    margin-top:10px;
+    border:1px solid #fff;
+    padding:7px 0;
+    background-color: #212121;
+}
+
+input::placeholder {
+    padding-left: 10px;
+}
+
+.newsletter button {
+    background-color: #f2b42a;
+    color:#111;
+    border:none;
+    padding:8px 10px;
+    font-weight: bold;
+}
+
+.group-link div {
+    margin-right:15px;
+}
+
+.group-link a {
+    color:#fff;
+    font-size: 12px;
 }
