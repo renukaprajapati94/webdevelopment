@@ -233,19 +233,15 @@
     font-size: 14px;
 }
 
-.deal-time {
-    font-size: 70px;
-    letter-spacing: 10px;
-}
-
 .icons {
     display: flex;
     gap:20px;
+    margin-top:10px;
 }
 
 .time-span {
     display:flex;
-    gap:13%;
+    gap:8%;
     margin:10px 0;
 }
 
@@ -295,14 +291,15 @@
     display: flex;
     color:#fff;
     background-color: #212121;
-    padding:20px 0;
-    justify-content: space-around;
     letter-spacing: 1px;
+    padding: 20px 0;
 }
 
 .footer > div {
     border-right: 1px solid #343434;
-    padding-right: 30px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .footer div:last-child {
@@ -315,6 +312,7 @@
 
 .footer .group-button {
     margin-left: 0;
+    flex-grow: 0;
 }
 
 .footer .group-button ul li {
@@ -348,4 +346,21 @@ input::placeholder {
 .group-link a {
     color:#fff;
     font-size: 12px;
+}
+
+.deal-time {
+    display: flex;
+    text-align: center;
+    gap:10px;
+}
+
+.deal-time div > div:first-child{
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+.symbol {
+    margin: 35px 0;
+    font-size: 40px;
+    font-weight: bolder;
 }

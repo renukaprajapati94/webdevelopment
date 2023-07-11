@@ -1,0 +1,151 @@
+@media screen and (max-width: 1024px) {
+    .nav ul {
+        gap:0;
+    }
+
+    .logo img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .buy-image img{
+        padding: 60px 50px 50px 0;
+    }
+
+    .footer > div:first-child {
+        display: none;
+    }
+
+    .nav ul li a {
+        padding:18px 10px;
+    }
+}
+
+@media screen and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+        .main-container {
+            overflow: hidden;
+        }
+
+        .group-button ul > li:nth-child(even), .cartbutton, .review > div:nth-child(even) {
+            display: none;
+        }
+
+        .banner-info h1 {
+            font-size: 50px;
+        }
+        
+        .banner-info p {
+            font-size: 14px;
+        }
+
+        .nav ul  > li a {
+            font-size: 13px;
+        }
+}
+
+@media screen and (min-device-width: 480px)
+    and (max-device-width: 768px) {
+        .main-container {
+            overflow: hidden;
+        }
+
+        .cartbutton, .nav ul  > li:nth-child(even) {
+            display: none;
+        }
+
+        .child-header .group-button ul > li {
+            display: none;
+        }
+
+        .callinfo {
+            font-size: 12px;
+            margin:10px 0;
+        }
+
+        .logo span {
+            font-size:20px;
+        }
+
+        .nav ul  > li a {
+            font-size: 13px;
+        }
+
+        .banner {
+            flex-direction: column;
+            text-align: center;
+        }     
+        
+        .banner-info h1 {
+            font-size: 50px;
+        }
+
+        .banner-info p {
+            font-size: 14px;
+        }
+
+        .buy-image img{
+            padding:0;
+            height: 130px;
+            width: 200px;
+        }
+
+        .categ-card {
+            flex-wrap: wrap;
+            gap:20px;
+            justify-content: space-around;
+        }
+
+        .special-deal {
+            flex-direction: column;
+        }
+
+        .inner-box {
+            width: 75%;
+            margin: 40px auto;
+        }
+
+        .deal-time {
+            font-size: 12px;
+        }
+
+        .deal-time div > div:first-child{
+            font-size: 50px;
+        }
+
+        .icons i {
+            font-size: 25px;
+        }
+
+        .review {
+            flex-direction: column;
+        }
+
+        .title-para {
+            padding:0 10%;
+        }
+
+        .user-img {
+            height: 70px;
+            width: 70px;
+            padding:10px;
+        }
+
+        .review > div:nth-child(even) {
+            display: none;
+        }
+
+        .footer {
+            flex-direction: column;
+            gap:30px;
+        }
+
+        .footer h2 {
+            font-size:18px;
+        }
+
+        .footer > div{
+            justify-content:left;
+            margin-left:20px;
+        }
+}
